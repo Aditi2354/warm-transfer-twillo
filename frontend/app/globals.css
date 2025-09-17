@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1020;
+  --card: #121a36;
+  --text: #dbe3ff;
+  --muted: #98a3c7;
+  --accent: #6ea8fe;
+}
+
+body { background: var(--bg); color: var(--text); }
+.card { background: var(--card); }
+.btn { background: var(--accent); color: black; font-weight: 600; }
+.input { background: #0e1530; border: 1px solid #22315f; color: var(--text); }
+.label { color: var(--muted); font-size: 0.9rem; }

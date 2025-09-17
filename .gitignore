@@ -1,0 +1,22 @@
+# Node
+node_modules/
+.next/
+out/
+dist/
+
+# Python
+.venv*/
+__pycache__/
+*.pyc
+
+# Env & local
+.env
+.env.*
+!.env.example
+frontend/.env.local
+backend/.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
